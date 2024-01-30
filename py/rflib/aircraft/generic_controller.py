@@ -278,7 +278,7 @@ class RealFlightGenericController:
         if velocity_z < 0:
             throttle = 0.5 + (velocity_z * 3.6 / 7) / 2
 
-        yaw = 0.5 + (rate_yaw / 120) / 2
+        yaw = 0.5 + (rate_yaw) / 2
 
         self.channel_values = [
             roll,

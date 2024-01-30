@@ -43,7 +43,7 @@ class MotionCommander:
     """The motion commander"""
 
     VELOCITY = 1
-    RATE = 360.0 / 5
+    RATE = 120
 
     def __init__(
         self,
