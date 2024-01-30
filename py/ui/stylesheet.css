@@ -1,0 +1,92 @@
+* {
+  font-family: "Cascadia Mono", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  font-size: 10pt;
+}
+
+QWidget#scrollAreaWidgetContents{
+  background-color:  #272822;
+}
+
+QMainWindow {
+  background-color: #272822;
+}
+
+QScrollArea{
+  background-color: none;
+}
+
+QTableView{
+  font-size: 14px;
+}
+
+QLabel {
+  font-family: "Cascadia Mono", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  font-size: 15px;
+  color: rgb(199, 199, 199);
+  text-align: center;
+}
+
+QLabel#label_title {
+  font-family: "Cascadia Mono", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+QLabel#label_text_version {
+  font-size: 15px;
+  font-family: "Cascadia Mono", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  text-align: right;
+}
+
+QLabel#label_text_user {
+  font-size: 15px;
+  font-family: "Cascadia Mono", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  text-align: right;
+}
+
+QToolButton {
+  background-color: #272822;
+  font-size: 15px;
+}
+
+QPushButton{
+  background-color: rgb(110,110,110);
+  color: rgb(199, 199, 199);
+  border-color: #272822;
+  border-style: none;
+  text-align: center;
+  font-family: "Cascadia Mono", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  font-size: 15px;
+}
+
+QPushButton:hover {
+  background-color: rgb(80, 80, 80);
+  font-family: "Cascadia Mono", Cambria;
+}
+
+QPushButton:disabled {
+  background-color: #353631;
+}
+
+QGroupBox::title {
+  color: rgb(199, 199, 199);
+}
+
+
+QCheckBox {
+  color: rgb(199, 199, 199)
+}
+
+QSpinBox:enabled {
+  background: lightblue;
+}
+
+QSpinBox:disabled {
+  background: #a9a9a9;
+}
